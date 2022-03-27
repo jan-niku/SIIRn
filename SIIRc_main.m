@@ -4,18 +4,18 @@
 
 %% Params
 t0 = 0;
-tf = 25;
+tf = 100;
 tspan = [t0 tf];
 S0 = 100;
 I10 = 1;
-I20 = 5;
+I20 = 1;
 R0 = 0;
 U0 = [S0,I10,I20,R0];
 
-r1 = 0.010;
-r2 = 0.005;
-a1 = 0.2;
-a2 = 0.2;
+r1 = 0.01;
+r2 = 0.015;
+a1 = 0.02;
+a2 = 0.02;
 
 PLOTBOOL = 1; % plot at all?
 LEG_PLOT = 1; % legend
